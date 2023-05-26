@@ -1,7 +1,7 @@
 :root 
-    {--cor-de-fundo: #b63b3b;
-     --cor-cabecalho: #95d6ff;
-     --fundo-menu: #3aadf5;
+    {--cor-de-fundo: #ffffff;
+     --cor-cabecalho: #ffffff;
+     --fundo-menu: #ffffff;
 }
 
 body {
@@ -10,6 +10,7 @@ body {
 
 .cabecalho {
      background-color: var(--cor-de-cabecalho);
+     text-align: center;
 }
 
 .cabecalho-titulo {
@@ -26,11 +27,15 @@ body {
 
 .cabecalho-menu-item {
     display: block;
-    padding: 10px;
-    font-size: 24PX;
+    padding: 5px;
+    font-size: 20PX;
     text-decoration: none;
-    color: blue;
+    color: rgb(0, 0, 0);
     text-align: center;
     border: 1px solid;
+
+}
+.programação {
+    width: 1000px;
 
 }
